@@ -7,15 +7,22 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>CEM virtual school</title>
+        <title>CEM virtual schools</title>
         <meta name="description" content="">
-        <link rel="icon" type="image" href="download.jpg">
+        <link rel="icon" type="image" href="download1.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Krona+One&family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     </head>
     <body>
+      <div id="top">
+        <a href='http://www.uct.ac.za/' target='_blank'><img id="logo" src="uct-logo-white.png"></a>
+        <div class="topwriting">
+        <H1>Construction Economics and Management<br>Virtual Schools</H1> 
+        <a target="_blank" href="http://www.cons.uct.ac.za/"><h4><u>Home</u></a>&nbsp; &nbsp;<a target="_blank" href="https://ebe.uct.ac.za/"><u>Engineering and the Built Environment</u></h4></a>
+    </div> 
+        <img id="overlay" src="top overlay.png">
          </body>
          <div id="management" class="button">
             <span class="line-1"></span>
@@ -24,7 +31,7 @@
             <span class="line-4"></span>
             <span class="line-5"></span>
             <span class="line-6"></span>
-            Virtual School of Construction Management
+            ???
           </div>
          <div id="contech" class="button">
             <span class="line-1"></span>
@@ -33,7 +40,7 @@
             <span class="line-4"></span>
             <span class="line-5"></span>
             <span class="line-6"></span>
-            Virtual School of Construction technology
+            Virtual Modelling site
           </div>
           <div id="measurement" class="button">
             <span class="line-1"></span>
@@ -42,7 +49,7 @@
             <span class="line-4"></span>
             <span class="line-5"></span>
             <span class="line-6"></span>
-            Virtual School of Measurement
+            VIRTUAL<BR>MEASUREMENT ASSISTANT 
           </div>
           <div id="practical" class="button">
             <span class="line-1"></span>
@@ -51,15 +58,77 @@
             <span class="line-4"></span>
             <span class="line-5"></span>
             <span class="line-6"></span>
-            Our Youtube channel
+            VIRTUAL<BR>SITE TOURS
           </div>
 </html>
 <style>
+  a:hover{
+    cursor: pointer;
+  }
+  a:visited {
+    color: white;
+    text-decoration: none;
+ }
+  #overlay {
+    opacity: 1;
+    display: absolute; 
+    z-index: 3;
+    width: auto;
+    height: auto;
+    top: 0;
+    margin: 30px 0 0 300px;
+    transform: scale(1.6);
+}
+  #logo {
+    transform: scale(1.5);
+    position: absolute;
+    margin: 38px 0 0 10vw;
+}
+  #top{
+    color: rgb(51, 51, 51);
+    background-color: rgb(0, 78, 80);
+    right: 0;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    height: 220px;
+    line-height: 18px;
+    outline-color: rgb(51, 51, 51);
+    outline-style: none;
+    outline-width: 0px;
+    text-size-adjust: 100%;
+    width: 101vw;
+    justify-content: center;
+    margin: -6px 0 0 -10px;
+        }
+  .topwriting {
+    color: rgb(254, 254, 254);
+cursor: pointer;
+display: inline-block;
+position: absolute;
+text-align: left;
+right: 0;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 100;
+height: auto;
+outline-color: rgb(254, 254, 254);
+outline-style: none;
+outline-width: 0px;
+text-decoration-thickness: auto;
+text-shadow: rgb(51, 102, 51) 1px 1px 0px;
+text-size-adjust: 100%;
+width: 1000px;
+z-index: 5;
+margin: 0px -10px 0 600px;
+line-height: 50px;
+}
+
 #practical {
-    margin: 10px 0 0 250px;
+    margin: 60px 0 0 250px;
 }
 #management {
-        margin: 300px 0 0 400px;
+        margin: 400px 0 0 400px;
     }
 #contech { 
     margin: 50px 0 0 150px;
@@ -92,13 +161,16 @@ body {
     color: #3d6fc0;
     text-transform: uppercase;
     cursor: pointer;
-    opacity: 0.2;
-    background: rgba(255, 255, 255, 0.425);
+    opacity: 0.6;
+    background: rgba(255, 255, 255, 0.7);
     border-left: 5px solid #232b36;
+  }
+  .button:hover {
+    transform: scale(1.2);
   }
   .button span {
     position: absolute;
-    transition: all 200ms ease-in-out;
+    transition: all 800ms ease-in-out;
     /* horizontal */
     /* horizontal - small */
   }
@@ -106,15 +178,15 @@ body {
     top: 0;
     left: 0;
     width: 358px;
-    height: 2px;
+    height: 4px;
     background: #232b36;
     transform: translateX(-48px);
   }
   .button span.line-2 {
     bottom: 0;
     right: 0;
-    width: 350px;
-    height: 5px;
+    width: 360px;
+    height: 4px;
     background: #232b36;
     transform: translateX(-25px);
   }
@@ -122,7 +194,7 @@ body {
     top: 0;
     right: 0;
     width: 40px;
-    height: 5px;
+    height: 4px;
     background: #232b36;
     transform: translateX(20px);
   }
@@ -130,15 +202,15 @@ body {
     bottom: 0;
     right: 0;
     width: 100px;
-    height: 1px;
+    height: 4px;
     background: #232b36;
     transform: translateX(95px);
   }
   .button span.line-5 {
     bottom: 0;
     right: 0;
-    width: 3px;
-    height: 70px;
+    width: 4px;
+    height: 50px;
     background: #232b36;
     transform: translateY(0px);
   }
@@ -146,12 +218,12 @@ body {
     top: 0;
     right: 0;
     width: 4px;
-    height: 20px;
+    height: 30px;
     background: #232b36;
     transform: translateY(-48px);
   }
   .button:hover {
-    opacity: 0.7;
+    opacity: 0.9;
     transition: 1s;
   }
   .button:hover .line-1 {

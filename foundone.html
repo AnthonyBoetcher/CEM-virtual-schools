@@ -74,7 +74,7 @@
 <div id="foundone">
   <!--FOLLOWING FOR DOWNLOAD BUTTON-->
                          <!--DOWNLOAD BUTTON HTML-->
-                         <a id="downloadanchor" target="_blank" href="downloadssiteclearance.zip" download="Q1.77.6.zip" >
+                         <a id="downloadanchor" target="_blank" href="Q1.77.6.zip" download="Q1.77.6.zip" >
                           <button type="button" class="icon">
                             <div class="cloud">
                               <div class="puff puff-1"></div>
@@ -832,8 +832,18 @@
                            </div>
                            <!--FOLLOWING FOR SUPER ASSIST CSS-->
                            <style>
-                             #myDropdownfound1:hover, #myDropdownfound2:hover, #myDropdownfound3:hover, #myDropdownfound4:hover{
+                              #myDropdownfound3:hover, #myDropdownfound4:hover{
                                transform: scale(2);
+                               cursor: pointer;
+                               z-index: 999;
+                               }
+                               #myDropdownfound1:hover{
+                                transform: scale(1.725);
+                               cursor: pointer;
+                               z-index: 999;
+                               }
+                               #myDropdownfound2:hover{
+                                transform: scale(1.65);
                                cursor: pointer;
                                z-index: 999;
                                }
@@ -849,9 +859,9 @@
                            .dropbtnfound4 {
                                  border: 3px solid rgba(0, 196, 0, 0.3);
                              background-color: transparent;
-                             margin: 67px 0 0 461px;
-                             width: 220px; 
-                             height: 610px;
+                             margin: 110px 0 0 500px;
+                             width: 235px; 
+                             height: 630px;
                              position:absolute;
                              padding: 16px;
                              z-index: 1; 
@@ -867,11 +877,11 @@
                            .dropdownfound4 {
                              position: relative;
                              display: inline-block;
-                             z-index: 1; 
+                             z-index: 900; 
                            }
                            .dropdown-contentfound4 {
                              display: none;
-                             margin: 150px 0 0 -779px;
+                             margin: 160px 0 0 -850px;
                          position:absolute;
                          background-color:white;
                              border: 3px solid rgba(0, 196, 0, 0.3);
@@ -895,9 +905,9 @@
                                .dropbtnfound3 {
                                      border: 3px solid rgba(0, 196, 0, 0.3);
                                  background-color: transparent;
-                                 margin: 65px 0 0 130px;
-                                 width: 200px; 
-                                 height: 65px;
+                                 margin: 110px 0 0 95px;
+                                 width: 220px; 
+                                 height: 90px;
                                  position:absolute;
                                  padding: 16px;
                                  z-index: 1; 
@@ -913,11 +923,11 @@
                                .dropdownfound3 {
                                  position: relative;
                                  display: inline-block;
-                                 z-index: 1; 
-                               }
+                                 z-index: 900;
+                                }
                                .dropdown-contentfound3 {
                                  display: none;
-                                 margin: 100px 0 0 -850px;
+                                 margin: 160px 0 0 -850px;
                                  position:absolute;
                              background-color:white;
                              border: 3px solid rgba(0, 196, 0, 0.3);
@@ -936,12 +946,12 @@
                                width: 400px; 
                                height: 600px; 
                                background-color:none;
-                               margin: 0 0 0 -800px;
+                               margin: 0 0 0 0px;
                              }
                                .dropbtnfound2 {
                                  border: 3px solid rgba(0, 125, 129, 0.3);
                                  background-color: transparent;
-                                 margin: 675px 0 0 470px;
+                                 margin: 735px 0 0 510px;
                                  width: 75px; 
                                  height: 90px;
                                  position:absolute;
@@ -962,16 +972,17 @@
                                  z-index: 999;
                                }
                                .dropdown-contentfound2 {
-                                 display: none;
-                                 margin: 200px 0 0 300px;
-                                 position:absolute;
-                             background-color:white;
-                             border: 3px solid rgba(0, 125, 129, 0.3);
-                             overflow: auto;
-                                 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                                 z-index: 999;
-                                 border-radius: 10px;
-                                 height: fit-content;
+                                display: none;
+                                margin: 180px 0 0 -850px;
+                                position:absolute;
+                            background-color:white;
+                            border: 3px solid rgba(0, 125, 129, 0.3);
+                            min-width: 160px;
+                                overflow: auto;
+                                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                z-index: 999;
+                                border-radius: 10px;
+                                height: fit-content;
                                }  
                                .show {display:block;}
                              /*end of dropdown for site clearance collection*/
@@ -992,7 +1003,7 @@
                                .dropbtnfound1 {
                                  border: 3px solid rgba(0, 125, 129, 0.3);
                                  background-color: transparent;
-                                 margin: 115px 0 0 1105px;
+                                 margin: 115px 0 0 0px;
                                  width: 70px; 
                                  height: 130px;
                                  position:absolute;
@@ -1010,11 +1021,11 @@
                                .dropdownfound1 {
                                  position: relative;
                                  display: inline-block;
-                                 z-index: 1;
+                                 z-index: 999;
                                }
                                .dropdown-contentfound1 {
                                  display: none;
-                                 margin: 200px 0 0 300px;
+                                 margin: 195px 0 0 -850px;
                                  position:absolute;
                              background-color:white;
                              border: 3px solid rgba(0, 125, 129, 0.3);
@@ -1024,6 +1035,7 @@
                                  z-index: 999;
                                  border-radius: 10px;
                                  height: fit-content;
+                                 z-index: 999;
                                }
                                .dropdown-contentfound1 a:hover {background-color: rgb(8, 55, 56)}
                                
@@ -1087,32 +1099,32 @@
                                    <div id="hover12found"></div>
                                    <div id="stuff12found"></div>
                                    <div id="hover13found"></div>
-                                   <div id="stuff13found">+1500mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1500mm</div>
+                                   <div id="stuff13found"><div style="position: absolute; top:0; left:0">1500mm+</div><div style="position: absolute; margin: 100px 0 0 -5px; width: 900px; height: 390px; background-color: rgba(0, 0, 255, 0.2)"></div><div style="position: absolute; top:0; right:0">+1500mm</div></div>
                                    
                                    <div id="hover14found"></div>
-                                   <div id="stuff14found">+1500mm<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+1500mm</div>     
+                                   <div id="stuff14found"><div style="position: absolute; top:0; transform:rotate(90deg); margin: 20px 0 0 -15px">1500mm+</div><div style="position: absolute; top:0; left: 0; margin: -5px 0 0 -770px; width: 770px; height: 540px; background-color: rgba(0, 0, 255, 0.2)"></div><div style="position: absolute; bottom:0;transform:rotate(90deg); margin: 0px 0 20px -15px">+1500mm</div></div>     
            
                                    <div id="hover15found"></div>
-                                   <div id="stuff15found">+1500mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1500mm</div>   
+                                   <div id="stuff15found"><div style="position: absolute; top:0; left:0">1500mm+</div><div style="position: absolute; top:0; left: 0; margin: 74px 0 0 -5px; width: 380px; height: 76px; background-color: rgba(0, 0, 255, 0.2)"></div><div style="position: absolute; top:0; right:0">+1500mm</div></div>   
            
                                    <div id="hover16found"></div>
-                                   <div id="stuff16found">+1500mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1500mm</div>   
+                                   <div id="stuff16found"><div style="position: absolute; bottom:0; left:0">1500mm+</div><div style="position: absolute; top:0; left: 0; margin: -154px 0 0 -5px; width: 320px; height: 155px; background-color: rgba(0, 0, 255, 0.2)"></div><div style="position: absolute; bottom:0; right:0">+1500mm</div></div>   
            
                                    <div id="hover17found"></div>
-                                   <div id="stuff17found"></div>   
+                                   <div id="stuff17found"><div style="position: absolute; margin: 100px 0 0 -5px; width: 770px; height: 390px; background-color: rgba(0, 0, 255, 0.2)"></div></div>
            
                                    <div id="hover18found"></div>
                                    <div id="stuff18"></div>   
            
                                    <div id="hover19found"></div>
-                                   <div id="stuff19found"></div>  
+                                   <div id="stuff19found"><div style="position: absolute; top:0; left: 0; margin: -5px 0 0 -770px; width: 770px; height: 390px; background-color: rgba(0, 0, 255, 0.2)"></div></div>  
            
                                    <div id="hover20found"></div>
-                                   <div id="stuff20found"></div>  
+                                   <div id="stuff20found"><div style="position: absolute; top:0; left: 0; margin: 74px 0 0 -5px; width: 232px; height: 76px; background-color: rgba(0, 0, 255, 0.2)"></div></div>  
            
                                    <div id="hover21found"></div>
-                                   <div id="stuff21found"></div>  
-                                   
+                                   <div id="stuff21found"><div style="position: absolute; top:0; left: 0; margin: -154px 0 0 -5px; width: 200px; height: 154px; background-color: rgba(0, 0, 255, 0.2)"></div></div>  
+                                  
                                    <div id="hover22found"></div>
                                    <div id="stuff22"></div>   
            
@@ -1139,7 +1151,7 @@
                              overflow: visible;
                              width:65px;
                              height:45px;
-                             margin: 320px 0 0 1462px;
+                             margin: 320px 0 0 408px;
                              z-index: 99;
                              cursor: pointer;
                              border-radius: 10px;
@@ -1152,14 +1164,14 @@
                                -o-transition: all 500ms ease-in-out;
                                transition: all 500ms ease-in-out;
                                z-index: 99; 
-                               width:60px;
-                               height: 170px;
+                               width:75px;
+                               height: 160px;
                                background-color:transparent;
                                border: 5px solid rgba(0, 0, 255, 0.50); 
                                z-index: 999; 
                                position: absolute;
                                overflow: visible;
-                               margin: 140px 0 0 855px;
+                               margin: 165px 0 0 -173px;
                                color: black;
                                text-decoration: bold;
                            }
@@ -1171,7 +1183,7 @@
                                overflow: visible;
                                width:65px;
                                height:45px;
-                               margin: 258px 0 0 1462px;
+                               margin: 256px 0 0 408px;
                                z-index: 99;
                                cursor: pointer;
                                border-radius: 10px;
@@ -1184,14 +1196,14 @@
                                -o-transition: all 500ms ease-in-out;
                                transition: all 500ms ease-in-out;
                                z-index: 99; 
-                               width:60px;
-                               height: 180px;
+                               width:70px;
+                               height: 165px;
                                background-color:transparent;
                                border: 5px solid rgba(0, 0, 255, 0.50); 
                                z-index: 99; 
                                position: absolute;
                                overflow: visible;
-                               margin: 565px 0 0 852px;
+                               margin: 556px 0 0 -170px;
                                color: black;
                                text-decoration: bold;
                              }
@@ -1203,7 +1215,7 @@
                                overflow: visible;
                                width:65px;
                                height:45px;
-                               margin: 195px 0 0 1462px;
+                               margin: 190px 0 0 408px;
                                z-index: 99;
                                cursor: pointer;
                                border-radius: 10px;
@@ -1216,14 +1228,14 @@
                                -o-transition: all 500ms ease-in-out;
                                transition: all 500ms ease-in-out;
                                z-index: 99; 
-                               width:80px;
-                               height: 180px;
+                               width:95px;
+                               height: 165px;
                                background-color:transparent;
                                border: 5px solid rgba(0, 0, 255, 0.50); 
                                z-index: 99; 
                                position: absolute;
                                overflow: visible;
-                               margin: 727px 0 0 580px;
+                               margin: 707px 0 0 -500px;
                                color: black;
                                text-decoration: bold;
                                }
@@ -1235,7 +1247,7 @@
                                overflow: visible;
                                width:65px;
                                height:45px;
-                               margin: 132px 0 0 1462px;
+                               margin: 127px 0 0 408px;
                                z-index: 99;
                                cursor: pointer;
                                border-radius: 10px;
@@ -1248,21 +1260,21 @@
                                -o-transition: all 500ms ease-in-out;
                                transition: all 500ms ease-in-out;
                                z-index: 99; 
-                               width:95px;
-                               height: 180px;
+                               width:110px;
+                               height: 166px;
                                background-color:transparent;
                                border: 5px solid rgba(0, 0, 255, 0.50); 
                                z-index: 99; 
                                position: absolute;
                                overflow: visible;
-                               margin: 727px 0 0 350px;
+                               margin: 706px 0 0 -773px;
                                color: black;
                                text-decoration: bold;
                              }
                              #hover13found {
-                               width:50px;
+                               width:60px;
                                height:20px;
-                               margin: 322px 0 0 1375px;
+                               margin: 322px 0 0 298px;
                                background-color:transparent;
                                border: 3px solid rgba(255, 0, 0, 0.3); 
                                z-index: 100; 
@@ -1280,21 +1292,23 @@
                          -o-transition: all 500ms ease-in-out;
                          transition: all 500ms ease-in-out;
                          z-index: 99; 
-                         width:800px;
-                         height: 35px;
+                         width:900px;
+                         height: 110px;
                          background-color:transparent;
-                         border: 5px solid rgba(0, 0, 255, 0.5); 
+                         border-top: 5px solid rgba(0, 0, 255, 0.5); 
+                         border-left: 5px dashed rgba(0, 0, 255, 0.5); 
+                         border-right: 5px dashed rgba(0, 0, 255, 0.5); 
                          z-index: 99; 
                          position: absolute;
                          overflow: visible;
-                         margin: 15px 0 0 -10px;
+                         margin: 75px 0 0 -1180px;
                          color: black;
                          text-decoration: bold;
                              }
                              #hover14found {
-                               width:50px;
+                               width:60px;
                                height:20px;
-                               margin: 490px 0 0 1375px;
+                               margin: 492px 0 0 298px;
                                background-color:transparent;
                                border: 3px solid rgba(255, 0, 0, 0.3); 
                                z-index: 100; 
@@ -1313,21 +1327,24 @@
                                -o-transition: all 500ms ease-in-out;
                                transition: all 500ms ease-in-out;
                                z-index: 99; 
-                               width:35px;
-                               height: 570px;
+                               width:42px;
+                               height: 540px;
                                background-color:transparent;
-                               border: 5px solid rgba(0, 0, 255, 0.50); 
+                               border-right: 5px solid rgba(0, 0, 255, 0.50); 
+                               border-top: 5px dashed rgba(0, 0, 255, 0.50); 
+                               border-bottom: 5px dashed rgba(0, 0, 255, 0.50); 
                                z-index: 99; 
                                position: absolute;
                                overflow: visible;
-                               margin: 85px 0 0 720px;
+                               margin: 100px 0 0 -348px;
+                               position: absolute;
                                color: black;
                                text-decoration: bold;
                              }
                              #hover15found {
                                width:50px;
                                height:20px;
-                               margin: 595px 0 0 1375px;
+                               margin: 598px 0 0 305px;
                                background-color:transparent;
                                border: 3px solid rgba(255, 0, 0, 0.3); 
                                z-index: 100; 
@@ -1339,28 +1356,30 @@
                          
                              }
                              #stuff15found {
-                               opacity: 0.0;
-                               -webkit-transition: all 500ms ease-in-out;
-                               -moz-transition: all 500ms ease-in-out;
-                               -ms-transition: all 500ms ease-in-out;
-                               -o-transition: all 500ms ease-in-out;
-                               transition: all 500ms ease-in-out;
-                               z-index: 99; 
-                               width:350px;
-                               height: 35px;
-                               background-color:transparent;
-                               border: 5px solid rgba(0, 0, 255, 0.50); 
-                               z-index: 99; 
-                               position: absolute;
-                               overflow: visible;
-                               margin: -15px 0 0 227px;
-                               color: black;
-                               text-decoration: bold;
+                              opacity: 0;
+                              -webkit-transition: all 500ms ease-in-out;
+                              -moz-transition: all 500ms ease-in-out;
+                              -ms-transition: all 500ms ease-in-out;
+                              -o-transition: all 500ms ease-in-out;
+                              transition: all 500ms ease-in-out;
+                              z-index: 99; 
+                              width:380px;
+                              height: 80px;
+                              background-color:transparent;
+                              border-top: 5px solid rgba(0, 0, 255, 0.50); 
+                              border-right: 5px dashed rgba(0, 0, 255, 0.50); 
+                              border-left: 5px dashed rgba(0, 0, 255, 0.50); 
+                              z-index: 99; 
+                              position: absolute;
+                              overflow: visible;
+                              margin: 42px 0 0 -905px;
+                              color: black;
+                              text-decoration: bold;
                              }
                              #hover16found {
                                width:50px;
                                height:20px;
-                               margin: 700px 0 0 1375px;
+                               margin: 705px 0 0 305px;
                                background-color:transparent;
                                border: 3px solid rgba(255, 0, 0, 0.3); 
                                z-index: 100; 
@@ -1372,23 +1391,25 @@
                          
                              }
                              #stuff16found {
-                               opacity: 0.0;
-                               -webkit-transition: all 500ms ease-in-out;
-                               -moz-transition: all 500ms ease-in-out;
-                               -ms-transition: all 500ms ease-in-out;
-                               -o-transition: all 500ms ease-in-out;
-                               transition: all 500ms ease-in-out;
-                               z-index: 99; 
-                               width:335px;
-                               height: 35px;
-                               background-color:transparent;
-                               border: 5px solid rgba(0, 0, 255, 0.50); 
-                               z-index: 99; 
-                               position: absolute;
-                               overflow: visible;
-                               margin: 750px 0 0 -15px;
-                               color: black;
-                               text-decoration: bold;
+                              opacity: 0.0;
+                              -webkit-transition: all 500ms ease-in-out;
+                              -moz-transition: all 500ms ease-in-out;
+                              -ms-transition: all 500ms ease-in-out;
+                              -o-transition: all 500ms ease-in-out;
+                              transition: all 500ms ease-in-out;
+                              z-index: 99; 
+                              width:320px;
+                              height: 48px;
+                              background-color:transparent;
+                              border-bottom: 5px solid rgba(0, 0, 255, 0.50); 
+                              border-right: 5px dashed rgba(0, 0, 255, 0.50); 
+                              border-left: 5px dashed rgba(0, 0, 255, 0.50); 
+                              z-index: 99; 
+                              position: absolute;
+                              overflow: visible;
+                              margin: 703px 0 0 -1177px;
+                              color: black;
+                              text-decoration: bold;
                              }
                              #hover17found {
                                background-color:transparent;
@@ -1396,9 +1417,9 @@
                                z-index: 100; 
                                position: absolute;
                                overflow: visible;
-                               width:120px;
-                               height:110px;
-                               margin: 195px 0 0 1310px;
+                               width:130px;
+                               height:104px;
+                               margin: 195px 0 0 230px;
                                z-index: 99;
                                cursor: pointer;
                                border-radius: 10px;
@@ -1411,22 +1432,23 @@
                          -ms-transition: all 500ms ease-in-out;
                          -o-transition: all 500ms ease-in-out;
                          transition: all 500ms ease-in-out;
-                         z-index: 99; 
-                         width:645px;
-                         height: 35px;
+                         z-index: 9; 
+                         width:770px;
+                         height: 110px;
                          background-color:transparent;
-                         border: 5px solid rgba(0, 0, 255, 0.5); 
-                         z-index: 99; 
+                         border-top: 5px solid rgba(0, 0, 255, 0.5); 
+                         border-left: 5px dashed rgba(0, 0, 255, 0.5); 
+                         border-right: 5px dashed rgba(0, 0, 255, 0.5); 
                          position: absolute;
                          overflow: visible;
-                         margin: 15px 0 0 64px;
+                         margin: 75px 0 0 -1117px;
                          color: black;
                          text-decoration: bold;
                              }
                              #hover19found {
-                               width:120px;
+                               width:130px;
                                height:110px;
-                               margin: 360px 0 0 1310px;
+                               margin: 360px 0 0 230px;
                                background-color:transparent;
                                border: 3px solid rgba(255, 0, 0, 0.3); 
                                z-index: 100; 
@@ -1445,21 +1467,23 @@
                                -o-transition: all 500ms ease-in-out;
                                transition: all 500ms ease-in-out;
                                z-index: 99; 
-                               width:35px;
-                               height: 425px;
+                               width:45px;
+                               height: 390px;
                                background-color:transparent;
-                               border: 5px solid rgba(0, 0, 255, 0.50); 
+                               border-right: 5px solid rgba(0, 0, 255, 0.50); 
+                               border-top: 5px dashed rgba(0, 0, 255, 0.50); 
+                               border-bottom: 5px dashed rgba(0, 0, 255, 0.50); 
                                z-index: 99; 
                                position: absolute;
                                overflow: visible;
-                               margin: 155px 0 0 720px;
+                               margin: 180px 0 0 -348px;
                                color: black;
                                text-decoration: bold;
                              }
                              #hover20found {
                                width:120px;
-                               height:50px;
-                               margin: 525px 0 0 1310px;
+                               height:48px;
+                               margin: 530px 0 0 235px;
                                background-color:transparent;
                                border: 3px solid rgba(255, 0, 0, 0.3); 
                                z-index: 100; 
@@ -1471,28 +1495,30 @@
                          
                              }
                              #stuff20found {
-                               opacity: 0.0;
+                              opacity: 0;
                                -webkit-transition: all 500ms ease-in-out;
                                -moz-transition: all 500ms ease-in-out;
                                -ms-transition: all 500ms ease-in-out;
                                -o-transition: all 500ms ease-in-out;
                                transition: all 500ms ease-in-out;
                                z-index: 99; 
-                               width:190px;
-                               height: 35px;
+                               width:232px;
+                               height: 80px;
                                background-color:transparent;
-                               border: 5px solid rgba(0, 0, 255, 0.50); 
+                               border-top: 5px solid rgba(0, 0, 255, 0.50); 
+                               border-right: 5px dashed rgba(0, 0, 255, 0.50); 
+                               border-left: 5px dashed rgba(0, 0, 255, 0.50); 
                                z-index: 99; 
                                position: absolute;
                                overflow: visible;
-                               margin: -15px 0 0 310px;
+                               margin: 42px 0 0 -827px;
                                color: black;
                                text-decoration: bold;
                              }
                              #hover21found {
                                width:120px;
                                height:45px;
-                               margin: 635px 0 0 1310px;
+                               margin: 638px 0 0 240px;
                                background-color:transparent;
                                border: 3px solid rgba(255, 0, 0, 0.3); 
                                z-index: 100; 
@@ -1510,14 +1536,16 @@
                                -o-transition: all 500ms ease-in-out;
                                transition: all 500ms ease-in-out;
                                z-index: 99; 
-                               width:172px;
-                               height: 35px;
+                               width:200px;
+                               height: 48px;
                                background-color:transparent;
-                               border: 5px solid rgba(0, 0, 255, 0.50); 
+                               border-bottom: 5px solid rgba(0, 0, 255, 0.50); 
+                               border-right: 5px dashed rgba(0, 0, 255, 0.50); 
+                               border-left: 5px dashed rgba(0, 0, 255, 0.50); 
                                z-index: 99; 
                                position: absolute;
                                overflow: visible;
-                               margin: 750px 0 0 65px;
+                               margin: 703px 0 0 -1117px;
                                color: black;
                                text-decoration: bold;
                              }
@@ -1527,6 +1555,11 @@
                            animation-duration: 1s;
                            animation-iteration-count: infinite;
                            cursor: pointer;
+                         }
+                         
+                         @keyframes reveal {
+                          0%{opacity:0}
+                          100%{opacity:1}
                          }
                          .popup {
                           position: relative;
@@ -1950,7 +1983,7 @@
                              width: 400px; 
                              height: 600px; 
                              background-color:none;
-                             margin: 0 0 0 -800px;
+                             margin: 0 0 0 0px;
                            }
                              .dropbtnfound6 {
                                border: 3px solid rgba(0, 125, 129, 0.3);
@@ -2085,67 +2118,67 @@
          
                      <!--HOVER ITEMS FOUND ONE-->
                        <!--START OF HOVER ITEMS HTML-->
-                                   <div class="descrip">
+                                   <div class="descrip2">
                                    
-                                       <div id="hover9found"></div>
-                                       <div id="stuff9found"></div>
+                                       <div id="hover91found"></div>
+                                       <div id="stuff91found"></div>
          
-                                       <div id="hover11found"></div>
-                                       <div id="stuff11found"></div>
-                                       <div id="hover11afound"></div>
-                                       <div id="stuff11afound"></div>
+                                       <div id="hover111found"></div>
+                                       <div id="stuff111found"></div>
+                                       <div id="hover11a1found"></div>
+                                       <div id="stuff11a1found"></div>
          
                                        
                            </div>
-                               <div class="descrip1">
-                                 <div id="hover12found"></div>
-                                 <div id="stuff12found"></div>
-                                 <div id="hover13found"></div>
-                                 <div id="stuff13found">+1500mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1500mm</div>
+                               <div class="descrip3">
+                                 <div id="hover121found"></div>
+                                 <div id="stuff121found"></div>
+                                 <div id="hover131found"></div>
+                                 <div id="stuff131found">+1500mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1500mm</div>
                                  
-                                 <div id="hover14found"></div>
-                                 <div id="stuff14found">+1500mm<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+1500mm</div>     
+                                 <div id="hover141found"></div>
+                                 <div id="stuff141found">+1500mm<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+1500mm</div>     
          
-                                 <div id="hover15found"></div>
-                                 <div id="stuff15found">+1500mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1500mm</div>   
+                                 <div id="hover151found"></div>
+                                 <div id="stuff151found">+1500mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1500mm</div>   
          
-                                 <div id="hover16found"></div>
-                                 <div id="stuff16found">+1500mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1500mm</div>   
+                                 <div id="hover161found"></div>
+                                 <div id="stuff161found">+1500mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1500mm</div>   
          
-                                 <div id="hover17found"></div>
-                                 <div id="stuff17found"></div>   
+                                 <div id="hover171found"></div>
+                                 <div id="stuff171found"></div>   
          
-                                 <div id="hover18found"></div>
-                                 <div id="stuff18"></div>   
+                                 <div id="hover181found"></div>
+                                 <div id="stuff181"></div>   
          
-                                 <div id="hover19found"></div>
-                                 <div id="stuff19found"></div>  
+                                 <div id="hover191found"></div>
+                                 <div id="stuff191found"></div>  
          
-                                 <div id="hover20found"></div>
-                                 <div id="stuff20found"></div>  
+                                 <div id="hover201found"></div>
+                                 <div id="stuff201found"></div>  
          
-                                 <div id="hover21found"></div>
-                                 <div id="stuff21found"></div>  
+                                 <div id="hover211found"></div>
+                                 <div id="stuff211found"></div>  
                                  
-                                 <div id="hover22found"></div>
-                                 <div id="stuff22"></div>   
+                                 <div id="hover221found"></div>
+                                 <div id="stuff221"></div>   
          
-                                 <div id="hover23found"></div>
-                                 <div id="stuff23"></div>  
+                                 <div id="hover231found"></div>
+                                 <div id="stuff231"></div>  
          
-                                 <div id="hover24found"></div>
-                                 <div id="stuff24found"></div>  
+                                 <div id="hover241found"></div>
+                                 <div id="stuff241found"></div>  
          
-                                 <div id="hover25found"></div>
-                                 <div id="stuff25found"></div>  
+                                 <div id="hover251found"></div>
+                                 <div id="stuff251found"></div>  
          
-                                 <div id="hover26found"></div>
-                                 <div id="stuff26found"></div>  
+                                 <div id="hover261found"></div>
+                                 <div id="stuff261found"></div>  
                                </div>
                        <!--END OF HOVER ITEMS HTML-->
                      <!--START HOVER ITEMS CSS-->
                      <style>
-                       #hover9found {
+                       #hover91found {
                          background-color:transparent;
                            border: 3px solid rgba(255, 0, 0, 0.3); 
                            z-index: 100; 
@@ -2158,7 +2191,7 @@
                            cursor: pointer;
                            border-radius: 10px;
                        }
-                       #stuff9found {
+                       #stuff91found {
                          opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -2177,7 +2210,7 @@
                              color: black;
                              text-decoration: bold;
                          }
-                         #hover11found {
+                         #hover111found {
                            background-color:transparent;
                              border: 3px solid rgba(255, 0, 0, 0.3); 
                              z-index: 100; 
@@ -2190,7 +2223,7 @@
                              cursor: pointer;
                              border-radius: 10px;
                          }
-                         #stuff11found {
+                         #stuff111found {
                            opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -2209,7 +2242,7 @@
                              color: black;
                              text-decoration: bold;
                            }
-                           #hover11afound {
+                           #hover11a1found {
                              background-color:transparent;
                              border: 3px solid rgba(255, 0, 0, 0.3); 
                              z-index: 100; 
@@ -2222,7 +2255,7 @@
                              cursor: pointer;
                              border-radius: 10px;
                            }
-                           #stuff11afound {
+                           #stuff11a1found {
                              opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -2241,7 +2274,7 @@
                              color: black;
                              text-decoration: bold;
                              }
-                           #hover12found {
+                           #hover121found {
                              background-color:transparent;
                              border: 3px solid rgba(255, 0, 0, 0.3); 
                              z-index: 100; 
@@ -2254,7 +2287,7 @@
                              cursor: pointer;
                              border-radius: 10px;
                            }
-                           #stuff12found {
+                           #stuff121found {
                              opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -2273,7 +2306,7 @@
                              color: black;
                              text-decoration: bold;
                            }
-                           #hover13found {
+                           #hover131found {
                              width:50px;
                              height:20px;
                              margin: 322px 0 0 1375px;
@@ -2286,7 +2319,7 @@
                              cursor: pointer;
                              border-radius: 10px;
                            }
-                           #stuff13found {
+                           #stuff131found {
                              opacity: 0.0;
                        -webkit-transition: all 500ms ease-in-out;
                        -moz-transition: all 500ms ease-in-out;
@@ -2305,7 +2338,7 @@
                        color: black;
                        text-decoration: bold;
                            }
-                           #hover14found {
+                           #hover141found {
                              width:50px;
                              height:20px;
                              margin: 490px 0 0 1375px;
@@ -2319,7 +2352,7 @@
                              border-radius: 10px;
                        
                            }
-                           #stuff14found {
+                           #stuff141found {
                              opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -2338,7 +2371,7 @@
                              color: black;
                              text-decoration: bold;
                            }
-                           #hover15found {
+                           #hover151found {
                              width:50px;
                              height:20px;
                              margin: 595px 0 0 1375px;
@@ -2352,7 +2385,7 @@
                              border-radius: 10px;
                        
                            }
-                           #stuff15found {
+                           #stuff151found {
                              opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -2371,7 +2404,7 @@
                              color: black;
                              text-decoration: bold;
                            }
-                           #hover16found {
+                           #hover161found {
                              width:50px;
                              height:20px;
                              margin: 700px 0 0 1375px;
@@ -2385,7 +2418,7 @@
                              border-radius: 10px;
                        
                            }
-                           #stuff16found {
+                           #stuff161found {
                              opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -2404,7 +2437,7 @@
                              color: black;
                              text-decoration: bold;
                            }
-                           #hover17found {
+                           #hover171found {
                              background-color:transparent;
                              border: 3px solid rgba(255, 0, 0, 0.3); 
                              z-index: 100; 
@@ -2418,7 +2451,7 @@
                              border-radius: 10px;
                        
                            }
-                           #stuff17found {
+                           #stuff171found {
                              opacity: 0.0;
                        -webkit-transition: all 500ms ease-in-out;
                        -moz-transition: all 500ms ease-in-out;
@@ -2437,7 +2470,7 @@
                        color: black;
                        text-decoration: bold;
                            }
-                           #hover19found {
+                           #hover191found {
                              width:120px;
                              height:110px;
                              margin: 360px 0 0 1310px;
@@ -2451,7 +2484,7 @@
                              border-radius: 10px;
                        
                            }
-                           #stuff19found {
+                           #stuff191found {
                              opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -2470,7 +2503,7 @@
                              color: black;
                              text-decoration: bold;
                            }
-                           #hover20found {
+                           #hover201found {
                              width:120px;
                              height:50px;
                              margin: 525px 0 0 1310px;
@@ -2484,7 +2517,7 @@
                              border-radius: 10px;
                        
                            }
-                           #stuff20found {
+                           #stuff201found {
                              opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -2503,7 +2536,7 @@
                              color: black;
                              text-decoration: bold;
                            }
-                           #hover21found {
+                           #hover211found {
                              width:120px;
                              height:45px;
                              margin: 635px 0 0 1310px;
@@ -2516,7 +2549,7 @@
                              cursor: pointer;
                              border-radius: 10px;
                            }
-                           #stuff21found {
+                           #stuff211found {
                              opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -2535,7 +2568,7 @@
                              color: black;
                              text-decoration: bold;
                            }
-                         #hover22found:hover + #stuff22found , #hover21found:hover + #stuff21found , #hover20found:hover + #stuff20found , #hover19found:hover + #stuff19found, #hover18found:hover + #stuff18found,  #hover17found:hover + #stuff17found, #hover16found:hover + #stuff16found ,#hover15found:hover + #stuff15found, #hover14found:hover + #stuff14found, #hover13found:hover + #stuff13found, #hover12found:hover + #stuff12found , #hover11afound:hover + #stuff11afound , #hover11found:hover + #stuff11found , #hover9found:hover + #stuff9found {
+                         #hover221found:hover + #stuff221found , #hover211found:hover + #stuff211found , #hover201found:hover + #stuff201found , #hover191found:hover + #stuff191found, #hover181found:hover + #stuff181found,  #hover171found:hover + #stuff171found, #hover161found:hover + #stuff161found ,#hover151found:hover + #stuff151found, #hover141found:hover + #stuff141found, #hover131found:hover + #stuff131found, #hover121found:hover + #stuff121found , #hover11a1found:hover + #stuff11a1found , #hover111found:hover + #stuff111found , #hover91found:hover + #stuff91found {
                          opacity: 1;
                        animation-name: reveal;
                          animation-duration: 1s;
@@ -2962,7 +2995,7 @@
                              width: 400px; 
                              height: 600px; 
                              background-color:none;
-                             margin: 0 0 0 -800px;
+                             margin: 0 0 0 0px;
                            }
                              .dropbtnfound10 {
                                border: 3px solid rgba(0, 125, 129, 0.3);
@@ -3097,67 +3130,67 @@
          
                      <!--HOVER ITEMS FOUND ONE-->
                        <!--START OF HOVER ITEMS HTML-->
-                                   <div class="descrip">
+                                   <div class="descrip4">
                                    
-                                       <div id="hover9found"></div>
-                                       <div id="stuff9found"></div>
+                                       <div id="hover92found"></div>
+                                       <div id="stuff92found"></div>
          
-                                       <div id="hover11found"></div>
-                                       <div id="stuff11found"></div>
-                                       <div id="hover11afound"></div>
-                                       <div id="stuff11afound"></div>
+                                       <div id="hover112found"></div>
+                                       <div id="stuff112found"></div>
+                                       <div id="hover11a2found"></div>
+                                       <div id="stuff11a2found"></div>
          
                                        
                            </div>
-                               <div class="descrip1">
-                                 <div id="hover12found"></div>
-                                 <div id="stuff12found"></div>
-                                 <div id="hover13found"></div>
-                                 <div id="stuff13found">+1500mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1500mm</div>
+                               <div class="descrip5">
+                                 <div id="hover122found"></div>
+                                 <div id="stuff122found"></div>
+                                 <div id="hover132found"></div>
+                                 <div id="stuff132found">+1500mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1500mm</div>
                                  
-                                 <div id="hover14found"></div>
-                                 <div id="stuff14found">+1500mm<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+1500mm</div>     
+                                 <div id="hover142found"></div>
+                                 <div id="stuff142found">+1500mm<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+1500mm</div>     
          
-                                 <div id="hover15found"></div>
-                                 <div id="stuff15found">+1500mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1500mm</div>   
+                                 <div id="hover152found"></div>
+                                 <div id="stuff152found">+1500mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1500mm</div>   
          
-                                 <div id="hover16found"></div>
-                                 <div id="stuff16found">+1500mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1500mm</div>   
+                                 <div id="hover162found"></div>
+                                 <div id="stuff162found">+1500mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1500mm</div>   
          
-                                 <div id="hover17found"></div>
-                                 <div id="stuff17found"></div>   
+                                 <div id="hover172found"></div>
+                                 <div id="stuff172found"></div>   
          
-                                 <div id="hover18found"></div>
-                                 <div id="stuff18"></div>   
+                                 <div id="hover182found"></div>
+                                 <div id="stuff182"></div>   
          
-                                 <div id="hover19found"></div>
-                                 <div id="stuff19found"></div>  
+                                 <div id="hover192found"></div>
+                                 <div id="stuff192found"></div>  
          
-                                 <div id="hover20found"></div>
-                                 <div id="stuff20found"></div>  
+                                 <div id="hover202found"></div>
+                                 <div id="stuff202found"></div>  
          
-                                 <div id="hover21found"></div>
-                                 <div id="stuff21found"></div>  
+                                 <div id="hover212found"></div>
+                                 <div id="stuff212found"></div>  
                                  
-                                 <div id="hover22found"></div>
-                                 <div id="stuff22"></div>   
+                                 <div id="hover222found"></div>
+                                 <div id="stuff222"></div>   
          
-                                 <div id="hover23found"></div>
-                                 <div id="stuff23"></div>  
+                                 <div id="hover232found"></div>
+                                 <div id="stuff232"></div>  
          
-                                 <div id="hover24found"></div>
-                                 <div id="stuff24found"></div>  
+                                 <div id="hover242found"></div>
+                                 <div id="stuff242found"></div>  
          
-                                 <div id="hover25found"></div>
-                                 <div id="stuff25found"></div>  
+                                 <div id="hover252found"></div>
+                                 <div id="stuff252found"></div>  
          
-                                 <div id="hover26found"></div>
-                                 <div id="stuff26found"></div>  
+                                 <div id="hover262found"></div>
+                                 <div id="stuff262found"></div>  
                                </div>
                        <!--END OF HOVER ITEMS HTML-->
                      <!--START HOVER ITEMS CSS-->
                      <style>
-                       #hover9found {
+                       #hover92found {
                          background-color:transparent;
                            border: 3px solid rgba(255, 0, 0, 0.3); 
                            z-index: 100; 
@@ -3170,7 +3203,7 @@
                            cursor: pointer;
                            border-radius: 10px;
                        }
-                       #stuff9found {
+                       #stuff92found {
                          opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -3189,7 +3222,7 @@
                              color: black;
                              text-decoration: bold;
                          }
-                         #hover11found {
+                         #hover112found {
                            background-color:transparent;
                              border: 3px solid rgba(255, 0, 0, 0.3); 
                              z-index: 100; 
@@ -3202,7 +3235,7 @@
                              cursor: pointer;
                              border-radius: 10px;
                          }
-                         #stuff11found {
+                         #stuff112found {
                            opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -3221,7 +3254,7 @@
                              color: black;
                              text-decoration: bold;
                            }
-                           #hover11afound {
+                           #hover11a2found {
                              background-color:transparent;
                              border: 3px solid rgba(255, 0, 0, 0.3); 
                              z-index: 100; 
@@ -3234,7 +3267,7 @@
                              cursor: pointer;
                              border-radius: 10px;
                            }
-                           #stuff11afound {
+                           #stuff11a2found {
                              opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -3253,7 +3286,7 @@
                              color: black;
                              text-decoration: bold;
                              }
-                           #hover12found {
+                           #hover122found {
                              background-color:transparent;
                              border: 3px solid rgba(255, 0, 0, 0.3); 
                              z-index: 100; 
@@ -3266,7 +3299,7 @@
                              cursor: pointer;
                              border-radius: 10px;
                            }
-                           #stuff12found {
+                           #stuff122found {
                              opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -3285,7 +3318,7 @@
                              color: black;
                              text-decoration: bold;
                            }
-                           #hover13found {
+                           #hover132found {
                              width:50px;
                              height:20px;
                              margin: 322px 0 0 1375px;
@@ -3298,7 +3331,7 @@
                              cursor: pointer;
                              border-radius: 10px;
                            }
-                           #stuff13found {
+                           #stuff132found {
                              opacity: 0.0;
                        -webkit-transition: all 500ms ease-in-out;
                        -moz-transition: all 500ms ease-in-out;
@@ -3317,7 +3350,7 @@
                        color: black;
                        text-decoration: bold;
                            }
-                           #hover14found {
+                           #hover142found {
                              width:50px;
                              height:20px;
                              margin: 490px 0 0 1375px;
@@ -3331,7 +3364,7 @@
                              border-radius: 10px;
                        
                            }
-                           #stuff14found {
+                           #stuff142found {
                              opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -3350,7 +3383,7 @@
                              color: black;
                              text-decoration: bold;
                            }
-                           #hover15found {
+                           #hover152found {
                              width:50px;
                              height:20px;
                              margin: 595px 0 0 1375px;
@@ -3364,7 +3397,7 @@
                              border-radius: 10px;
                        
                            }
-                           #stuff15found {
+                           #stuff152found {
                              opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -3383,7 +3416,7 @@
                              color: black;
                              text-decoration: bold;
                            }
-                           #hover16found {
+                           #hover162found {
                              width:50px;
                              height:20px;
                              margin: 700px 0 0 1375px;
@@ -3397,7 +3430,7 @@
                              border-radius: 10px;
                        
                            }
-                           #stuff16found {
+                           #stuff162found {
                              opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -3416,7 +3449,7 @@
                              color: black;
                              text-decoration: bold;
                            }
-                           #hover17found {
+                           #hover172found {
                              background-color:transparent;
                              border: 3px solid rgba(255, 0, 0, 0.3); 
                              z-index: 100; 
@@ -3430,7 +3463,7 @@
                              border-radius: 10px;
                        
                            }
-                           #stuff17found {
+                           #stuff172found {
                              opacity: 0.0;
                        -webkit-transition: all 500ms ease-in-out;
                        -moz-transition: all 500ms ease-in-out;
@@ -3449,7 +3482,7 @@
                        color: black;
                        text-decoration: bold;
                            }
-                           #hover19found {
+                           #hover192found {
                              width:120px;
                              height:110px;
                              margin: 360px 0 0 1310px;
@@ -3463,7 +3496,7 @@
                              border-radius: 10px;
                        
                            }
-                           #stuff19found {
+                           #stuff192found {
                              opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -3482,7 +3515,7 @@
                              color: black;
                              text-decoration: bold;
                            }
-                           #hover20found {
+                           #hover202found {
                              width:120px;
                              height:50px;
                              margin: 525px 0 0 1310px;
@@ -3496,7 +3529,7 @@
                              border-radius: 10px;
                        
                            }
-                           #stuff20found {
+                           #stuff202found {
                              opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -3515,7 +3548,7 @@
                              color: black;
                              text-decoration: bold;
                            }
-                           #hover21found {
+                           #hover212found {
                              width:120px;
                              height:45px;
                              margin: 635px 0 0 1310px;
@@ -3528,7 +3561,7 @@
                              cursor: pointer;
                              border-radius: 10px;
                            }
-                           #stuff21found {
+                           #stuff212found {
                              opacity: 0.0;
                              -webkit-transition: all 500ms ease-in-out;
                              -moz-transition: all 500ms ease-in-out;
@@ -3547,7 +3580,7 @@
                              color: black;
                              text-decoration: bold;
                            }
-                         #hover22found:hover + #stuff22found , #hover21found:hover + #stuff21found , #hover20found:hover + #stuff20found , #hover19found:hover + #stuff19found, #hover18found:hover + #stuff18found,  #hover17found:hover + #stuff17found, #hover16found:hover + #stuff16found ,#hover15found:hover + #stuff15found, #hover14found:hover + #stuff14found, #hover13found:hover + #stuff13found, #hover12found:hover + #stuff12found , #hover11afound:hover + #stuff11afound , #hover11found:hover + #stuff11found , #hover9found:hover + #stuff9found {
+                         #hover222found:hover + #stuff222found , #hover212found:hover + #stuff212found , #hover202found:hover + #stuff202found , #hover192found:hover + #stuff192found, #hover182found:hover + #stuff182found,  #hover172found:hover + #stuff172found, #hover162found:hover + #stuff162found ,#hover152found:hover + #stuff152found, #hover142found:hover + #stuff142found, #hover132found:hover + #stuff132found, #hover122found:hover + #stuff122found , #hover11a2found:hover + #stuff11a2found , #hover112found:hover + #stuff112found , #hover92found:hover + #stuff92found {
                          opacity: 1;
                        animation-name: reveal;
                          animation-duration: 1s;

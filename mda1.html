@@ -211,7 +211,9 @@ color: white
                     </style>
                     <!--END OF LOADING AND PAGE DELAY SCREEN-->
                   <!--start side navbar-->
-<nav id="navbar"><img id="logonav" src="smartsheetlogofinal.png"><p>Key:<br>Blue - CEM assist<br>Red - Reveal on plan/section<br>Green - Standard System<br>Lightning - Definition</p>
+<!--
+  <nav id="navbar"><img id="logonav" src="smartsheetlogofinal.png"><p>Key:<br>Blue - CEM assist<br>Red - Reveal on plan/section<br>Green - Standard System<br>Lightning - Definition</p>
+-->
 </nav>
 <style> /*STYLE FOR NAVBAR*/
   #navbar {
@@ -266,7 +268,9 @@ color: white
         <a id="tab4" data-tab="4" class="tab">SUPERSTRUCTURE</a>
         <a id="tab5" data-tab="5" class="tab">ROOFS</a>
         <a id="tab6" data-tab="6" class="tab">FINISHES</a>
-        <a id="tab7" data-tab="7" class="tab">DEDUCTIONS</a>
+        <a id="tab7" data-tab="7" class="tab">WINDOWS</a>
+        <a id="tab8" data-tab="8" class="tab">DOORS</a>
+        <a id="tab9" data-tab="9" class="tab">DIMENSION DETENTION</a>
       </div>
 
  <div class="content">
@@ -281,8 +285,6 @@ color: white
 <!--START OF FOUNDATIONS TAB-->
         <div id="tabcontent2" data-tab="2" class="tabcontent">
           
-<iframe width=1950px height= 1000px src="foundtwo.html" scrolling="no"></iframe>
-<br>
 <iframe width=1950px height= 1000px src="foundone.html" scrolling="no"></iframe>
 
 <style>
@@ -365,24 +367,54 @@ color: white
 <!--ROOFS-->
        <div id="tabcontent5" data-tab="5" class="tabcontent" style="display: none">
         <div id="roofone">
-        
+        </div>
+      </div>
 <!--FINISHES-->
-       <div id="tabcontent6" data-tab="6" class="tabcontent" style="display: none">
+       <div id="tabcontent6" data-tab="6" class="tabcontent">
+
+        <iframe width=1900px height= 1000px src="finishesone.html" scrolling="no"></iframe>
+
+        <style>
+          iframe{
+            border-radius: 30px;
+            border: none;
+            margin: 0 0 0 -5px;
+            background-color: white;
+          }
+        </style>
+        </div>
         
-              </div>
-<!--DEDUCTIONS-->
+<!--WINDOWS-->
   <div id="tabcontent7" data-tab="7" class="tabcontent" style="display: none">
          <br>
          
   </div>
-<!--END OF DEDUCTIONS-->
+<!--END OF WINDOWS-->
+
+<!--DOORS-->
+<div id="tabcontent8" data-tab="8" class="tabcontent" style="display: none">
+  <br>
+</div>
+
+<!--DIMENSION DETENTION-->
+<div id="tabcontent9" data-tab="9" class="tabcontent">
+  <iframe width=1900px height= 1000px src="dimensiondetention.html" scrolling="no"></iframe>
+
+  <style>
+    iframe{
+      border-radius: 30px;
+      border: none;
+      margin: 0 0 0 -5px;
+      background-color: white;
+    }
+  </style>
+</div>
+
     </div><!--CLOSING TAB CONTENT TAG-->
   </div><!--CLOSING TABS TAG-->
 </div><!--CLOSING GROSS CONTAINER TAG-->
          
-        </div>
-                
-        </div>
+        
         <!-- Start of HubSpot Embed Code -->
   <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/22627442.js"></script>
   <!-- End of HubSpot Embed Code -->
@@ -501,7 +533,7 @@ color: white
     cursor: pointer;
     padding: 12px 24px;
     width: 250px;
-    margin: 20px 5vw 0 0;
+    margin: 20px 70px 0 0;
     text-align: center;
     font-weight: bold;
     border-radius: 18px;
